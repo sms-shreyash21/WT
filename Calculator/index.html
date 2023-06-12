@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form style="text-align: center; ">
+            <h2>Mathematical Operations : </h2><br><br>
+            Enter 1st input :
+            <input type="number" id="first" name="firt"><br><br>
+            Enter 2nd input :
+            <input type="number" id="second" name="second"><br><br>
+
+            <button type="button" class="bu1" onclick="add()">Add</button>
+            <button type="button" class="bu1" onclick="sub()">Subtract</button>
+            <button type="button" class="bu1" onclick="mul()">Multiply</button>
+            <button type="button" class="bu1" onclick="div()">Divide</button><br><br>
+            Output :
+            <input type="text" id="op" name="op"><br><br>
+
+
+            <h2>Trigonometric Operations : </h2><br><br>
+            Enter Angle :
+            <input type="number" id="angle"><br><br>
+            <button type="button" class="bu1" onclick="Sine()">Sin</button>
+            <button type="button" class="bu1" onclick="Cosine()">Cos</button>
+            <button type="button" class="bu1" onclick="Tangent()">Tan</button><br><br>
+            Output :
+            <input type="text" id="op1" name="op1"><br><br>
+
+            <h2>Power and Root Operations : </h2><br><br>
+
+            Enter number :
+            <input type="number" id="powerNum"><br><br>
+            Enter Power or root to that number :
+            <input type="number" id="powerRoot"><br><br>
+            <button type="button" class="bu1" onclick="Power()">Power</button>
+            <button type="button" class="bu1" onclick="PowerRoot()">Root</button><br><br>
+            Output :
+            <input type="text" id="op2" name="op2"><br><br>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

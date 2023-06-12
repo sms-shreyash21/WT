@@ -1,0 +1,25 @@
+
+
+.container{
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 30px rgb(196, 195, 195);
+    background-color: rgb(228, 228, 228);
+}
+.bu1 {
+    background-color: rgb(228, 228, 228);
+    color: green;
+    padding: 10px 20px;
+    border: 2px solid green;
+    border-radius: 10px;
+    
+}
+
+.bu1:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}

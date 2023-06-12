@@ -1,0 +1,21 @@
+.container{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    padding: 40px;
+    margin-top: 40px;
+    background-color: orangered;
+    color: aliceblue;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+.button{
+    margin:auto;
+    text-align: center;
+    width: 200px;
+}
+button{
+    margin: 10px;
+}
